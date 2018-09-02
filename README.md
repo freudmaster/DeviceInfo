@@ -3,11 +3,11 @@
 
 ## Getting started
 
-`$ npm install react-native-device-information --save`
+`$ npm install fm-react-native-device-information --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-device-information`
+`$ react-native link fm-react-native-device-information`
 
 ### Manual installation
 

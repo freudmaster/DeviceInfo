@@ -1,7 +1,7 @@
 
 {
-  "name": "react-native-device-information",
-  "version": "1.0.0",
+  "name": "fm-react-native-device-info",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {

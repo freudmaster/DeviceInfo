@@ -1,6 +1,7 @@
 
 package com.reactlibrary;
 
+import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
@@ -18,5 +19,14 @@ public class RNDeviceInformationModule extends ReactContextBaseJavaModule {
   @Override
   public String getName() {
     return "RNDeviceInformation";
+  }
+  @ReactMethod
+  public void getMessage(final Promise promise){
+    try {
+      String message="freud le boss";
+      promise.resolve(message);
+    }catch (Exception e){
+      promise.reject("ERR_UNEXPECTED_EXCETION",e);
+    }
   }
 }
